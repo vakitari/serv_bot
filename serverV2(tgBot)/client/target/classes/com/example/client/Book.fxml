@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.Controller.BookController">
+   <children>
+      <ComboBox layoutX="85.0" layoutY="23.0" prefWidth="150.0" />
+      <ComboBox fx:id="comboBox" layoutX="225.0" layoutY="157.0" onAction="#OnTuch" prefWidth="150.0" />
+      <Button layoutX="274.0" layoutY="244.0" mnemonicParsing="false" onAction="#showMessage" text="Button" />
+      <TextField fx:id="txtInput" layoutX="226.0" layoutY="188.0" />
+   </children>
+</AnchorPane>
