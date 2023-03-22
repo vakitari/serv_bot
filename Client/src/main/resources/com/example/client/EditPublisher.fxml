@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="309.0" prefWidth="551.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.controller.AddPublisherController">
+   <children>
+      <Button layoutX="139.0" layoutY="241.0" mnemonicParsing="false" onAction="#SavePublisher" prefHeight="34.0" prefWidth="107.0" text="Сохранить">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="305.0" layoutY="241.0" mnemonicParsing="false" onAction="#ClosePublisher" prefHeight="34.0" prefWidth="107.0" text="Закрыть">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="PublisherTitle" layoutX="206.0" layoutY="111.0" prefHeight="34.0" prefWidth="234.0" />
+      <TextField fx:id="PublisherCity" layoutX="206.0" layoutY="167.0" prefHeight="34.0" prefWidth="234.0" />
+      <Label layoutX="145.0" layoutY="44.0" text="Добавление издательства">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="113.0" text="Название">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="169.0" text="Огород">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
